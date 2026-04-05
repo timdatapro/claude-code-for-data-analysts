@@ -1,5 +1,9 @@
 # Claude Code for Data Analysts
 
+<p align="center">
+  <img src="eve-health-course-promo.gif" alt="Claude Code for Data Analysts" width="480">
+</p>
+
 **A hands-on simulator course. No videos. Everything inside Claude Code.**
 
 You show up for your first day at EVE Health, a healthcare analytics company. Your manager pings you on Slack: *"Figure out the product before tomorrow's review."* And you do. You write SQL, analyze data in pandas, investigate anomalies, build dashboards, and present to leadership.

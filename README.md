@@ -2,7 +2,7 @@
 
 **A hands-on simulator course. No videos. Everything inside Claude Code.**
 
-You show up for your first day at EVE Health — a healthcare analytics company. Your manager pings you on Slack: *"Figure out the product before tomorrow's review."* And you do. You write SQL, analyze data in pandas, investigate anomalies, build dashboards, and present to leadership.
+You show up for your first day at EVE Health, a healthcare analytics company. Your manager pings you on Slack: *"Figure out the product before tomorrow's review."* And you do. You write SQL, analyze data in pandas, investigate anomalies, build dashboards, and present to leadership.
 
 You don't watch. You work.
 
@@ -10,9 +10,9 @@ You don't watch. You work.
 
 ## What is this
 
-A course-simulator that runs entirely inside [Claude Code](https://docs.anthropic.com). No videos, no quizzes, no LMS. You open the terminal, type `/start-1-1`, and your first day at a fictional company begins.
+A course simulator that runs entirely inside [Claude Code](https://docs.anthropic.com). No videos, no quizzes, no LMS. You open the terminal, type `/start-1-1`, and your first day at a fictional company begins.
 
-Every module is a real work situation. Your manager assigns a task. You solve it with Claude Code — writing queries, analyzing data, building charts, investigating metric spikes, preparing presentations for executives.
+Every module is a real work situation. Your manager assigns a task. You solve it with Claude Code: writing queries, analyzing data, building charts, investigating metric spikes, preparing presentations for executives.
 
 Claude Code isn't just a tool in this course. It **is** the course.
 
@@ -27,20 +27,18 @@ Claude Code isn't just a tool in this course. It **is** the course.
 
 **Requirements:** Claude Pro or Max subscription ($20/mo) + VS Code
 
-> 📄 Detailed setup instructions: [Setup Guide](start.html)
-
 ---
 
 ## Course Structure
 
-### Block 1 — Fundamentals (10 modules)
+### Block 1: Fundamentals (10 modules)
 
 | Module | Topic | You will... |
 |--------|-------|-------------|
 | 1.1 | First day at EVE Health | Meet the team, choose your level |
 | 1.2 | Workspace setup | Set up editor + terminal + database |
 | 1.3 | Monday morning digest | Analyze files, transform for 3 audiences |
-| 1.4 | Parallel agents | Batch-process 5 client datasets simultaneously |
+| 1.4 | Parallel agents | Batch process 5 client datasets simultaneously |
 | 1.5 | Metric spike investigation | Find why SLA breach jumped to 90% |
 | 1.6 | Memory & handoff | Document your work for a colleague |
 | 1.7 | Crisis mode | Fix analytics when pipeline breaks before board meeting |
@@ -48,7 +46,7 @@ Claude Code isn't just a tool in this course. It **is** the course.
 | 1.9 | Competitive benchmarking | Research competitors with web search |
 | 1.10 | Build your own skill | Create a reusable analysis automation |
 
-### Block 2 — Core DA Work (4 modules)
+### Block 2: Core DA Work (4 modules)
 
 | Module | Topic | You will... |
 |--------|-------|-------------|
@@ -57,15 +55,15 @@ Claude Code isn't just a tool in this course. It **is** the course.
 | 2.3 | Insights deck | Present findings to the CEO |
 | 2.4 | Dashboard spec | Design a dashboard a BI engineer will actually build |
 
-### Block 3 — Visual Content (2 modules)
+### Block 3: Visual Content (2 modules)
 
 Choose your track: **Advanced Data Visualization** (matplotlib, seaborn) or **AI Image Generation** (Gemini API). Senior does both.
 
-### Block 4 — Build a Product (5 modules)
+### Block 4: Build a Product (5 modules)
 
-Build an **ROI Calculator** for EVE Health's sales team — from idea to deployment on Vercel. You manage the product, Claude Code writes the code.
+Build an **ROI Calculator** for EVE Health's sales team, from idea to deployment on Vercel. You manage the product, Claude Code writes the code.
 
-### Block 5 — What's Next (2 modules)
+### Block 5: What's Next (2 modules)
 
 MCP integrations with real data sources. Rolling out Claude Code to your analytics team.
 
@@ -75,16 +73,16 @@ MCP integrations with real data sources. Rolling out Claude Code to your analyti
 
 You choose your level in Module 1.1. Every module adapts:
 
-| | Junior (0–1 yr) | Middle (1–3 yr) | Senior (3+ yr) |
+| | Junior (0-1 yr) | Middle (1-3 yr) | Senior (3+ yr) |
 |---|---|---|---|
-| **Code** | Ready-made, you interpret | You write it yourself | You write both SQL and Python |
+| **Code** | Ready made, you interpret | You write it yourself | You write both SQL and Python |
 | **SQL** | SELECT, JOIN, GROUP BY | Window functions, CTEs | Complex CTEs, competing metrics |
 | **Python** | pandas basics | pivot_table, matplotlib | numpy, statistical tests, seaborn |
-| **dbt** | — | — | Models, tests, lineage |
-| **Tone** | Supportive, step-by-step | Collegial, collaborative | Challenging, pushes back |
-| **Time** | 15–30 min/module | 20–40 min/module | 30–60 min/module |
+| **dbt** | not included | not included | Models, tests, lineage |
+| **Tone** | Supportive, step by step | Collegial, collaborative | Challenging, pushes back |
+| **Time** | 15-30 min/module | 20-40 min/module | 30-60 min/module |
 
-**Senior analysts do both SQL and Python in every module.** Not optional — that's the job.
+**Senior analysts do both SQL and Python in every module.** Not optional. That's the job.
 
 ---
 
@@ -97,7 +95,7 @@ You choose your level in Module 1.1. Every module adapts:
 | NPS survey | 320 | Module 2.2 |
 | Client batches (×5) | ~1,000 | Module 1.4 |
 
-All synthetic but realistic. Critical SLA breach at 90%. FCR below target. Unbalanced agent workload. This isn't "analyze a clean CSV" — it's "figure out why everything is on fire."
+All synthetic but realistic. Critical SLA breach at 90%. FCR below target. Unbalanced agent workload. This isn't "analyze a clean CSV." It's "figure out why everything is on fire."
 
 ---
 
@@ -105,7 +103,7 @@ All synthetic but realistic. Critical SLA breach at 90%. FCR below target. Unbal
 
 | Name | Role | Personality |
 |------|------|-------------|
-| **Tim Fateev** | Head of Data & Analytics | Your manager. Supportive but data-driven. Pings at 7:43 AM when something breaks. |
+| **Tim Fateev** | Head of Data & Analytics | Your manager. Supportive but data driven. Pings at 7:43 AM when something breaks. |
 | **Marcus Webb** | Senior Data Scientist | Skeptic. Won't accept findings without a p-value. |
 | **Priya Nair** | Data Engineer | Pragmatic. Will tell you "that query will timeout in prod." |
 | **Bob Okafor** | BI Engineer | Owns the dashboards. Come with specs, not opinions. |
@@ -127,9 +125,9 @@ SQL (sqlite3) · Python · pandas · numpy · matplotlib · seaborn · dbt (Seni
 
 EVE Health Analytics is a fictional B2B healthcare analytics company (Series B, $18M raised, 84 customers, Austin TX). Their platform has three modules:
 
-- **EVE Insights** — pre-built dashboards for healthcare KPIs
-- **EVE Explorer** — self-serve analytics for non-technical staff (41% adoption — a problem you'll investigate)
-- **EVE Signals** — ML-powered anomaly detection (beta)
+- **EVE Insights** pre-built dashboards for healthcare KPIs
+- **EVE Explorer** self-serve analytics for non-technical staff (41% adoption, a problem you'll investigate)
+- **EVE Signals** ML-powered anomaly detection (beta)
 
 All company context, product docs, personas, and competitive analysis are in `company-context/`.
 
@@ -137,13 +135,13 @@ All company context, product docs, personas, and competitive analysis are in `co
 
 ## License
 
-**CC BY 4.0** — use it, adapt it, share it. Just give credit.
+**CC BY 4.0** use it, adapt it, share it. Just give credit.
 
 ---
 
 ## Author
 
-**Tim Fateev** — [LinkedIn](https://www.linkedin.com/in/tim-datapro/)
+**Tim Fateev** [LinkedIn](https://www.linkedin.com/in/tim-datapro/)
 
 ---
 
